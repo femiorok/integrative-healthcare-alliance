@@ -1,4 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+
+//ignore next img tag error
+// eslint-disable-next-line @next/next/no-img-element
 
 export default function Home() {
   return (
@@ -216,7 +220,7 @@ const Feature = () => {
           <h6 className="mb-2 font-semibold leading-5">The deep ocean</h6>
           <p className="mb-3 text-sm text-gray-900">
             A flower in my garden, a mystery in my panties. Heart attack never
-            stopped old Big Bear. I didn't even know we were calling him Big
+            stopped old Big Bear. I didnt even know we were calling him Big
             Bear.
           </p>
           <a
