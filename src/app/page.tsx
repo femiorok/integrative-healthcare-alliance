@@ -109,7 +109,7 @@ const Header = () => {
   )
 }
 
-export const Content = () => {
+const Content = () => {
   return (
     <div className="px-4 py-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28 bg-[url('https://wellmont.qodeinteractive.com/wp-content/uploads/2022/12/h1-rrev-img-01.jpg')] bg-cover bg-center">
       <div className="grid gap-10 lg:grid-cols-2">
